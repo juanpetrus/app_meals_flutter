@@ -23,6 +23,7 @@ class MainDrawer extends StatelessWidget {
     return Drawer(
       child: Column(
         children: [
+          Container(),
           Container(
             height: 120,
             width: double.infinity,

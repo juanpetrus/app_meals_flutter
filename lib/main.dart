@@ -85,6 +85,7 @@ class _MyAppState extends State<MyApp> {
         AppRoutes.MEAL_DETAIL: (ctx) => MealDetailScreen(_toggleFavorite, isFavorite),
         AppRoutes.SETTINGS: (ctx) => SettingsScreen(settings, _filterMeals),
       },
+      debugShowCheckedModeBanner: false,
       onGenerateRoute: (settings) => MaterialPageRoute(
         builder: (ctx) => CategoriesScreen(),
       ),
